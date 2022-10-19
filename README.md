@@ -1,7 +1,7 @@
 # Run dag with airflow server/scheduler running inside the docker
 
 To run your dag do this:
-1. Build (`docker build -t run_local_airflow`)
+1. Build (`docker build -t run_local_airflow .`)
 2. Run container with mount and port forward: 
 ```bash
 docker run -p $HOST_PORT:8080 \
